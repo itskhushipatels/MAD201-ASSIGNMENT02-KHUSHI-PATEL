@@ -30,3 +30,16 @@ class ExpenseCard extends StatelessWidget {
     );
   }
 }
+
+class Expense {
+  String title;
+  double amount;
+  String description;
+  DateTime date;
+  Expense({
+    required this.title,
+    required this.amount,
+    required this.description,
+    required this.date,
+  });
+}

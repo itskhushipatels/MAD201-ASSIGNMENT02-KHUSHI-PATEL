@@ -1,16 +1,23 @@
-# assignment_2
+Personal Expense Tracker App
 
-A new Flutter project.
+This is a simple Flutter app for tracking personal expenses. Users can add new expenses, view a list of all expenses, and see detailed information for each expense.
 
-## Getting Started
+The code is structured to keep the app organized and easy to understand:
 
-This project is a starting point for a Flutter application.
+models/ – Contains the Expense class, which defines each expense with properties like title, amount, description, and date.
 
-A few resources to get you started if this is your first Flutter project:
+screens/ – Includes separate screens for the home page, adding a new expense, and viewing expense details. Each screen handles its own layout and user interactions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+main.dart – The entry point of the app, which sets up navigation between screens and initializes the app state.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app demonstrates key Flutter concepts such as:
+
+State management for updating the UI when expenses are added
+
+Form handling with input validation
+
+Navigation between multiple screens
+
+Clean and simple UI design
+
+This project is a good example of organizing a small Flutter app with clear separation of concerns, making it easy to extend or modify in the future.
